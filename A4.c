@@ -5,11 +5,13 @@ int main()
     printf("Enter number of rows: ");
     scanf("%d", &n);
 
-    for(i=1; i<=n; i++)    // loop for rows
+    for(i=1; i<=n; i++)    // loop for rows //dfdsfkldsjflksdjflksdjfsdljf
     {
         // print spaces
         for(s=1; s<=n-i; s++)
-        {
+
+
+    {
             printf(" ");
         }
         // print stars
@@ -19,6 +21,7 @@ int main()
         }
 
         printf("\n"); // move to next row
+        printf("kamran");
     }
 
     return 0;
